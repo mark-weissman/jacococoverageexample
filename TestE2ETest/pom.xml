@@ -9,7 +9,7 @@
     <artifactId>TestE2ETest</artifactId>
     <packaging>jar</packaging>
     <properties>
-        <jetty.version>8.1.16.v20140903</jetty.version>
+        <jetty.version>8.1.17.v20150415</jetty.version>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <skipTests>true</skipTests>
@@ -269,9 +269,9 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>org.mortbay.jetty</groupId>
+                        <groupId>org.eclipse.jetty</groupId>
                         <artifactId>jetty-maven-plugin</artifactId>
-                        <version>8.1.16.v20140903</version>
+                        <version>8.1.17.v20150415</version>
                         <executions>
                             <execution>
                                 <id>start-jetty</id>
